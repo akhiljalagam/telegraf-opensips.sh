@@ -19,7 +19,7 @@ This script collects the following Opensips metrics:
 # INSTALL
 
 ```
-wget 'https://raw.githubusercontent.com/akhilin/telegraf-opensips.sh/master/telegraf-opsnsips.sh' -P /opt/
+wget 'https://raw.githubusercontent.com/akhilin/telegraf-opensips.sh/master/telegraf-opensips.sh' -P /opt/
 chmod +x /opt/telegraf-opensips.sh
 wget 'https://raw.githubusercontent.com/akhilin/telegraf-opensips.sh/master/opensips.conf' -P /etc/telegraf/telegraf.d
 ```
